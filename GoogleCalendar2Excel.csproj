@@ -9,6 +9,13 @@
     <PackageReference Include="ClosedXML" Version="0.104.2" />
     <PackageReference Include="Google.Apis.Auth" Version="1.69.0" />
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.69.0.3667" />
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.74" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="credentials_cdvm.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
